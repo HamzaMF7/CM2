@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./Maquette2/img/fond.png);
+  font-family: "Poppins" serif;
+}
+/* Start header */
+header {
+  margin: 60px 0 40px;
+  background-color: #34b1b2;
+  border-top: 5px solid #2b9aa0;
+  border-bottom: 5px solid #2b9aa0;
+  text-align: center;
+}
+header img {
+  width: 11em;
+}
+header ul li {
+  display: inline-block;
+  padding: 15px;
+}
+header ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #dbf2f2;
+  text-transform: capitalize;
+}
+/* End header */
+/* Start main */
+main article {
+  width: 40%;
+  margin: 30px auto;
+  text-align: center;
+}
+main article h2 {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  color: #454a54;
+  font-size: 2em;
+  font-weight: inherit;
+}
+main article p {
+  color: #5f7d81;
+  line-height: 1.5;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+/* End main */
+/* Start section */
+section {
+  width: 60%;
+  /* height: 800px; */
+  margin: 20px auto;
+  /* background-color: white; */
+}
+section .second-article {
+  float: left;
+  width: 67%;
+  background-color: #b6dedc;
+  padding: 0 30px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+}
+section .second-article h2 {
+  font-size: 2em;
+  margin: 30px auto;
+  text-align: center;
+  color: #454a54;
+  text-transform: capitalize;
+}
+section .second-article h2 span {
+  color: #2b9aa0;
+}
+section .second-article .box h4 {
+  color: #4b535c;
+  font-size: 1.3em;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+section .second-article .box img {
+  width: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+section .second-article .box p {
+  color: #606c73;
+  line-height: 1.5;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+section .second-article .box button {
+  padding: 8px 20px;
+  background-color: #2b9aa0;
+  color: white;
+  border: none;
+  float: right;
+}
+section .content .box.first {
+  float: left;
+  width: 45%;
+}
+section .second-article .box.second {
+  float: right;
+  width: 45%;
+}
+section aside {
+  position: relative;
+  float: right;
+  width: 30%;
+  background-color: #34b1b2;
+  height: 700px;
+  border: 5px solid #2b9aa0;
+  padding: 0 20px;
+}
+section aside .vignette {
+  position: absolute;
+  background-image: url("./Maquette2/img/vignette.png");
+  background-repeat: no-repeat;
+  top: -50px;
+  right: -60px;
+  width: 150px;
+  height: 150px;
+  transition: 0.3s;
+}
+section aside .vignette:hover {
+  transform: rotate(360deg) scale(1.2, 1.2);
+}
+/* section aside::after {
+  content: "";
+  position: absolute;
+  background-image: url("./Maquette2/img/vignette.png");
+  background-repeat: no-repeat;
+  top: -50px;
+  right: -160px;
+  width: 100%;
+  height: 100%;
+} */
+section aside:hover::after {
+  /* transform: rotate(10deg); */
+  /* transform: scale(1.5); */
+}
+section aside h5 {
+  margin-top: 30px;
+  font-size: 1.3em;
+  color: #dbf2f2;
+}
+section aside h5 > span {
+  color: #9ed5d4;
+}
+section aside ul li {
+  margin: 20px 0;
+}
+section aside ul li > span {
+  color: #9ed5d4;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+section aside ul li p {
+  color: #dbf2f2;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+}
+footer img {
+  width: 50px;
+}
+footer p {
+  width: 80%;
+  margin: 0 auto 20px;
+}
+/* End section */
